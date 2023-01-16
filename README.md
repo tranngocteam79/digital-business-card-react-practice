@@ -2,7 +2,7 @@
 
 A practice project using React Components. 
 
-![Figma image](/public/figma.png)
+<img src="/public/figma.png" width="300px"/>
 
 ## Figma file
 [🔗Get design file here](https://www.figma.com/file/HW2rfal5rNsQ9nkSIY2M96/Digital-Business-Card?node-id=0%3A1&t=vDbdda8tjRZnbcsT-1)
