@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #23252C;
+  font-family: Inter, sans-serif;
+}
+
+#root {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-inline:auto;
+  background: #1A1B21;
+}
+
+.info {
+  text-align: center;
+  margin-bottom: 30px;
+
+  .info__avatar {
+    aspect-ratio: 1;
+    width: 100%;
+  }
+
+  .info__name {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+  }
+
+  .info__title {
+    font-size: 14px;
+    color:#F3BF99;
+    font-weight: 400;
+    margin: 6px;
+  }
+
+  .info__twitter{
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    color: #F5F5F5;
+    margin: 12px;
+  }
+
+  .info__contact {
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+    margin-inline: 44px;
+  }
+
+  .info__contact > * {
+    padding: 10px;
+    text-decoration:none;
+    font-weight: 500;
+    width: 145px;
+    border-radius: 8px;
+  }
+
+  .info__contact svg {
+    margin-right: 8px;
+  }
+
+  .info__email {
+    background:#FFFFFF ;
+    color: #374151;
+  }
+
+  .info__linkedin {
+    background:#5093E2 ;
+    color: #FFFFFF;
+  }
+}
+
+.about, .interest {
+  padding-inline: 44px;
+  font-size: 13px;
+  color: #DCDCDC;
+
+  h3 {
+    color: #F5F5F5;
+  }
+}
+
+.footer-wrapper{
+  margin-top: 30px;
+  display:flex;
+  justify-content: center;
+  padding: 20px;
+  background: #161619;
+ a {
+   text-decoration: none;
+ }
+}
