@@ -11,9 +11,12 @@ A practice project using React Components.
 To run this project, install it locally using npm and Vite
 
 ```
-npm create vite@latest
-# Then follow the prompts!
-npm install
-npm run dev
+# Clone this repo
+git clone https://github.com/tranngocteam79/digital-business-card-react-practice
 
+# Install dependencies
+npm install
+
+# Run dev server. Default is http://localhost:5173/
+npm run dev
 ```
