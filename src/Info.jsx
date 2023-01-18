@@ -9,7 +9,7 @@ export default function Info() {
       <h5 className="info__title">Frondend Developer</h5>
       <span className="info__twitter">@hiimngoctran</span>
       <div className="info__contact">
-        <a className="info__email" href="tranngocteam79@gmail.com">
+        <a className="info__email" href="mailto:tranngocteam79@gmail.com">
           <FontAwesomeIcon icon="envelope" />
           Email
         </a>
